@@ -1,0 +1,117 @@
+body{
+    background-image: url(https://previews.123rf.com/images/9george/9george1609/9george160900139/62906276-physical-formulas-and-phenomenon-hand-drawn-illustration-science-board-with-math-physics-education-a.jpg);
+    background-size: cover;
+}
+.container{
+    background:linear-gradient(rgb(146, 23, 170),#E45D2E);
+    margin:100px auto;
+    padding-top: 10px;
+    box-shadow: 2px 4px rgb(12, 58, 3);
+}
+#correct{
+    position: absolute;
+    font-size: 1.2vw;
+    padding:5px;
+    text-align: center;
+    background-color: rgb(113, 177, 17);
+    color:white;
+    box-shadow: 2px 4px rgb(4, 20, 1);
+    visibility: hidden;
+}
+#wrong{
+    position: absolute;
+    font-size: 1.2vw;
+    text-align: center;
+    background-color: rgb(205, 30, 30);
+    color:white;
+    box-shadow: 2px 4px rgb(52, 2, 2);
+    visibility: hidden;
+}
+#boxcontainer{
+    background:linear-gradient(rgb(31, 250, 250),rgb(174, 114, 193));
+    margin-top:40px;
+    padding:20px;
+    box-shadow: 2px 4px rgb(56, 59, 61);
+   
+}
+#boxmath{
+    background:linear-gradient(rgb(19, 227, 26),rgb(211, 74, 39));
+    box-shadow: 2px 4px rgb(114, 46, 7); 
+    text-align:center;
+    padding:2vw;
+    font-size: 7vw;
+}
+#instruction{
+    background:linear-gradient(rgb(172, 116, 151),pink);
+    margin-top: 10px; 
+    text-align: center;
+    padding: 1.5vw;
+    box-shadow: 2px 4px rgb(65, 4, 54);
+    font-size: 2vw;
+    font-family: fantasy;
+}
+#boxresult{
+    background:linear-gradient(rgb(49, 121, 228),rgb(112, 201, 212));
+    padding: 10px;
+    box-shadow: 2px 4px rgb(4, 48, 22);
+}
+#box1, #box2, #box3, #box4{
+    background: linear-gradient(rgb(254, 249, 127),rgb(167, 167, 6));
+    box-shadow: 2px 4px rgb(95, 89, 5);
+    text-align: center;
+    line-height: 90px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 4vw;
+    transition: all 0.2s;
+}
+#box1:hover, #box2:hover, #box3:hover, #box4:hover{
+    background:linear-gradient(rgb(64, 4, 99),violet);
+    color:white;
+    box-shadow: 2px 4px rgb(30, 7, 101);
+}
+#box1:active, #box2:active, #box3:active, #box4:active{
+    top:4px;
+    box-shadow: 0px 0px rgb(30, 7, 101);
+}
+#startreset{
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top:1.5vh;
+    font-size: 1.2em;
+    box-shadow: 2px 4px rgb(15, 2, 2);
+    transition: all 0.2s;
+    background-color: rgb(111, 28, 167);
+    border: darkmagenta;
+    color: white;
+}
+#startreset:hover{
+    background-color: rgb(32, 165, 213);
+    color:black;
+    box-shadow: 2px 4px rgb(119, 141, 192);
+}
+#startreset:active{
+    box-shadow: 0px 0px rgb(30, 7, 101);
+}
+#time{
+    font-size: 1.2vw;
+    text-align: center;
+    background-color: yellow;
+    padding: 3px;
+    box-shadow: 2px 4px rgb(75, 80, 11);
+    border-radius: 3px;
+    visibility: hidden;
+}
+#gameover{
+    position:absolute;
+    background:linear-gradient(rgb(213, 20, 94),rgb(230, 151, 230)) ;
+    font-size: 2.5vw;
+    text-align: center;
+    border-radius: 10px;
+    padding:1vw;
+    color: white;
+    text-transform: uppercase;
+    z-index: 2;
+    top:200px;
+    visibility: hidden;
+}
